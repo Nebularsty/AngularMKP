@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FiltragemComponent } from './shared/components/filtragem/filtragem.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import {MatChipsModule} from '@angular/material/chips';
+import { PerguntasComponent } from './shared/components/perguntas/perguntas.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {MatChipsModule} from '@angular/material/chips';
     MonteOSeuComponent,
     SlideshowComponent,
     CardsComponent,
-    FiltragemComponent
+    FiltragemComponent,
+    PerguntasComponent
   ],
   imports: [
     BrowserModule,
